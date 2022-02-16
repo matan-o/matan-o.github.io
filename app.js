@@ -39,10 +39,10 @@ const renderBookList = (books) => {
 };
 
 const noBooksFound = () => {
-  const message = document.createElement('h1')
-  message.innerHTML = `No books found with "${searchInputEl.value}" In this field.`
-  bookListEl.appendChild(message)
-}
+  const message = document.createElement("h1");
+  message.innerHTML = `No books found with "${searchInputEl.value}" In this field.`;
+  bookListEl.appendChild(message);
+};
 
 const createCard = (book) => {
   const card = document.createElement("div");

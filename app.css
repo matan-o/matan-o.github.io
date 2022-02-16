@@ -16,7 +16,7 @@ button:hover {
   color: white;
 }
 
-select{
+select {
   margin-right: 4px;
   outline: none;
   outline: none;
@@ -97,19 +97,22 @@ select{
   text-overflow: ellipsis;
 }
 
-@media only screen and (max-width: 653px){
-  .book-list{
+@media only screen and (max-width: 653px) {
+  .book-list {
     width: 80%;
   }
-  .card{
+  .card {
     width: 150px;
   }
 }
-@media only screen and (max-width: 528px){
-  .book-list{
+@media only screen and (max-width: 528px) {
+  .heading {
+    font-size: 30px;
+  }
+  .book-list {
     width: 70%;
   }
-  .card{
+  .card {
     width: 100%;
   }
 }
