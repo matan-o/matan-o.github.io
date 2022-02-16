@@ -8,11 +8,11 @@ button {
   cursor: pointer;
   padding: 8px;
   height: 36px;
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 button:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.233);
   color: white;
 }
 
@@ -43,7 +43,7 @@ select {
   display: flex;
 }
 
-#search-input {
+.search-input {
   margin-right: 4px;
   padding: 8px;
   outline: none;
@@ -66,6 +66,12 @@ select {
   flex-direction: column;
   width: 200px;
   box-shadow: 3px 4px 10px 3px rgb(185, 185, 185);
+  opacity: 0.87;
+  transition: all 0.1s;
+}
+
+.card:hover{
+  opacity: 1;
 }
 
 .title {
