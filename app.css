@@ -119,25 +119,19 @@ select {
   text-overflow: ellipsis;
 }
 
-@media only screen and (max-width: 653px) {
-  .heading {
-    font-size: 20px;
-  }
+@media only screen and (max-width: 732px) {
+ 
   .book-list {
-    width: 80%;
+    width: 100%;
   }
   .card {
     width: 150px;
   }
 }
-
 @media only screen and (max-width: 528px) {
  
-  .search-input {
-    padding: 0px;
-  }
   .book-list {
-    width: 70%;
+    width: 80%;
   }
   .card {
     width: 100%;
