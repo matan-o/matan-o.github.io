@@ -113,6 +113,9 @@ select {
 }
 
 @media only screen and (max-width: 653px) {
+  .heading {
+    font-size: 20px;
+   }
   .book-list {
     width: 80%;
   }
@@ -121,8 +124,9 @@ select {
   }
 }
 @media only screen and (max-width: 528px) {
+
   .heading {
-    font-size: 25px;
+   font-size: 20px;
   }
   .book-list {
     width: 70%;
