@@ -68,7 +68,7 @@ select {
   box-shadow: 3px 4px 10px 3px rgb(185, 185, 185);
 }
 
-.card > h4 {
+.title {
   margin: 8px 0;
   height: 36px;
   display: -webkit-box;
@@ -81,7 +81,6 @@ select {
 .book-image {
   height: 130px;
   object-fit: contain;
-  z-index: -1;
 }
 
 .description-short {
