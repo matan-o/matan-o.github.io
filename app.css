@@ -107,7 +107,7 @@ select {
 }
 @media only screen and (max-width: 528px) {
   .heading {
-    font-size: 30px;
+    font-size: 25px;
   }
   .book-list {
     width: 70%;
