@@ -129,20 +129,6 @@ select {
   }
 }
 
-@media only screen and (max-width: 800px) and (max-height: 350){
-  .heading {
-    display: none;
-  }
-  .search-unit{
-    margin-top: 8px;
-  }
-  .book-list {
-    width: 80%;
-  }
-  .card {
-    width: 150px;
-  }
-}
 @media only screen and (max-width: 528px) {
  
   .search-input {
