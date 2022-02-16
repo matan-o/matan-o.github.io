@@ -58,7 +58,7 @@ const createCard = (book) => {
   readMoreButton.className = "read-more-button";
 
   title.innerHTML = book.title;
-  image.src = book.imageLinks ? book.imageLinks.thumbnail : "";
+  image.src = book.imageLinks ? book.imageLinks.thumbnail : "./Image-Not-Found.svg";
   description.innerHTML = book.description
     ? book.description
     : "(no description)";
