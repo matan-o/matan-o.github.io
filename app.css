@@ -128,6 +128,21 @@ select {
     width: 150px;
   }
 }
+
+@media only screen and (max-width: 653px) and (max-width: 500px){
+  .heading {
+    display: none;
+  }
+  .search-unit{
+    margin-top: 8px;
+  }
+  .book-list {
+    width: 80%;
+  }
+  .card {
+    width: 150px;
+  }
+}
 @media only screen and (max-width: 528px) {
  
   .search-input {
