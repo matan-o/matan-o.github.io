@@ -9,6 +9,7 @@ button {
   padding: 8px;
   height: 36px;
   transition: all 0.2s;
+  border-radius: 4px;
 }
 
 button:hover {
@@ -21,6 +22,8 @@ select {
   outline: none;
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+
 }
 
 .nav {
@@ -58,6 +61,7 @@ select {
   padding: 8px;
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
 }
 
 .book-list {
@@ -71,12 +75,12 @@ select {
 .card {
   margin: 20px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 200px;
-  box-shadow: -5px 5px 15px 0px #0003;
+  box-shadow: -5px 5px 15px 0px rgba(0, 0, 0, 0.205);
   opacity: 0.87;
   transition: all 0.1s;
 }
@@ -116,7 +120,7 @@ select {
 @media only screen and (max-width: 653px) {
   .heading {
     font-size: 20px;
-   }
+  }
   .book-list {
     width: 80%;
   }
@@ -125,9 +129,9 @@ select {
   }
 }
 @media only screen and (max-width: 528px) {
-
-  .heading {
-   font-size: 20px;
+ 
+  .search-input {
+    padding: 0px;
   }
   .book-list {
     width: 70%;
