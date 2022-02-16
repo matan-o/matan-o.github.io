@@ -48,18 +48,18 @@ const createCard = (book) => {
   const card = document.createElement("div");
   const title = document.createElement("h4");
   const image = document.createElement("img");
-  const shortDescription = document.createElement("div");
+  const description = document.createElement("div");
   const readMoreButton = document.createElement("button");
 
   card.className = "card";
   title.className = "title";
   image.className = "book-image";
-  shortDescription.className = "description-short";
+  description.className = "description-short";
   readMoreButton.className = "read-more-button";
 
   title.innerHTML = book.title;
   image.src = book.imageLinks ? book.imageLinks.thumbnail : "";
-  shortDescription.innerHTML = book.description
+  description.innerHTML = book.description
     ? book.description
     : "(no description)";
 
@@ -68,7 +68,7 @@ const createCard = (book) => {
 
   card.appendChild(title);
   card.appendChild(image);
-  card.appendChild(shortDescription);
+  card.appendChild(description);
   card.appendChild(readMoreButton);
   bookListEl.appendChild(card);
 };
